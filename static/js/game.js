@@ -7,17 +7,17 @@ const fg         = new Image()
 const pipeUp     = new Image()
 const pipeBottom = new Image()
 
-bird.src = "img/flappy_bird_bird.png"
-bg.src = "img/flappy_bird_bg.png"
-fg.src = "img/flappy_bird_fg.png"
-pipeUp.src = "img/flappy_bird_pipeUp.png"
-pipeBottom.src = "img/flappy_bird_pipeBottom.png"
+bird.src = "/static/img/flappy_bird_bird.png"
+bg.src = "/static/img/flappy_bird_bg.png"
+fg.src = "/static/img/flappy_bird_fg.png"
+pipeUp.src = "static/img/flappy_bird_pipeUp.png"
+pipeBottom.src = "static/img/flappy_bird_pipeBottom.png"
 
 const flySound     = new Audio()
 const score_audio = new Audio()
 
-flySound.src    = "audio/fly.mp3"
-score_audio.src = "audio/score.mp3"
+flySound.src    = "/static/audio/fly.mp3"
+score_audio.src = "/static/audio/score.mp3"
 
 const gap     = 90
 const grav    = 1.5
